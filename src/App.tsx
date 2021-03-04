@@ -5,7 +5,7 @@ import QuestionCard from './components/QuestionCard';
 // types
 import { QuestionsState, Difficulty } from './API';
 // Styles
-// import { GlobalStyle, Wrapper } from './App.styles';
+import { GlobalStyle, Wrapper } from './App.styles';
 
 export type AnswerObject = {
   question: string;
