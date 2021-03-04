@@ -54,7 +54,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>React Quiz</h1>
-      {gameOver || userAnswer.length === TOTAL_QUESTION ? (
+      {gameOver || userAnswers.length === TOTAL_QUESTION ? (
         <button className="start" onClick={startIrivia}>
           Start Quiz
         </button>
